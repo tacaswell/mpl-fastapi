@@ -1,4 +1,5 @@
 [workspace]
+requires-pixi = ">=0.82.1"
 name = "mpl-fastapi"
 description = "Matplotlib backend integrated with FastAPI"
 channels = ["conda-forge"]
@@ -21,7 +22,7 @@ jinja2 = ">=3.1.0"
 pillow = ">=10.0.0"
 numpy = ">=1.24.0"
 aiofiles = ">=23.0.0"
-nodejs = ">=20"
+nodejs = ">=22.23.4,<23"
 pyside6 = ">=6.10.2,<7"
 pytest-qt = ">=4.5.0,<5"
 setuptools-scm = ">=9.2.2,<10"
