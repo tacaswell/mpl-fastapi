@@ -1,4 +1,5 @@
 [workspace]
+requires-pixi = ">=0.82.1"
 name = "mpl-fastapi"
 description = "Matplotlib backend integrated with FastAPI"
 channels = ["conda-forge"]
